@@ -1,28 +1,28 @@
 const aplicaciones = {
     informatica: [
       {
-        nombre: "Visual Studio Code",
-        url: "https://code.visualstudio.com/"
+        nombre: "Trello",
+        url: "https://trello.com/es"
       },
       {
-        nombre: "Sublime Text",
-        url: "https://www.sublimetext.com/"
+        nombre: "Codecademy",
+        url: "https://www.codecademy.com/"
       },
       {
         nombre: "GitHub",
         url: "https://github.com/"
       },
       {
-        nombre: "GitLab",
-        url: "https://gitlab.com/"
+        nombre: "Wolfram Alpha",
+        url: "https://www.wolframalpha.com/"
       },
       {
-        nombre: "MySQL",
-        url: "https://www.mysql.com/"
+        nombre: "Grammarly",
+        url: "https://www.grammarly.com/"
       },
       {
-        nombre: "MongoDB",
-        url: "https://www.mongodb.com/"
+        nombre: "SoloLearn",
+        url: "https://www.sololearn.com/"
       }
     ],
     administracion: [

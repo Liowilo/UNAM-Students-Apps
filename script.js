@@ -71,7 +71,10 @@ const aplicaciones = {
 const info = document.getElementById("info");
 
 select.addEventListener("change", function() {
-  if (select.value === "informatica") {
+  if (select.value === "opcion") {
+    info.textContent="";
+  }  
+    else if (select.value === "informatica") {
     info.textContent = "Es una herramienta de gestión de proyectos que te permite organizar tus tareas en tarjetas y tableros. Es muy útil para llevar un seguimiento de tus proyectos y tareas pendientes.";
   } else if (select.value === "administracion") {
     info.textContent = "Información de la opción 2";

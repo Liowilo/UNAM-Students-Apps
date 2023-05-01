@@ -73,9 +73,13 @@ header {
     margin-top: 170px;
   }
 
-
-  .trello h2{
-    color: black;
+  #info {
+    background-color: #ffb703;
+    border: 1px solid #ffb703;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
   }
   
   

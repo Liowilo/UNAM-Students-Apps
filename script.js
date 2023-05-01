@@ -66,3 +66,16 @@ const aplicaciones = {
       contenido.innerHTML = html;
     }
   });
+
+  const select = document.getElementById("carrera");
+const info = document.getElementById("info");
+
+select.addEventListener("change", function() {
+  if (select.value === "informatica") {
+    info.textContent = "Es una herramienta de gestión de proyectos que te permite organizar tus tareas en tarjetas y tableros. Es muy útil para llevar un seguimiento de tus proyectos y tareas pendientes.";
+  } else if (select.value === "administracion") {
+    info.textContent = "Información de la opción 2";
+  } else if (select.value === "option3") {
+    info.textContent = "Información de la opción 3";
+  }
+});

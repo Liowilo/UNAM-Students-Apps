@@ -46,6 +46,38 @@ const aplicaciones = {
         nombre: "Asana",
         url: "https://asana.com/es"
       }
+    ],
+    contaduria: [
+      {
+        nombre: "QuickBooks",
+        url: "https://quickbooks.intuit.com/mx/"
+      },
+      {
+        nombre: "Xero",
+        url: "https://www.xero.com/"
+      },
+      {
+        nombre: "Google Sheets",
+        url: "https://docs.google.com/spreadsheets/u/0/"
+      },
+      {
+        nombre: "Trello",
+        url: "https://trello.com/"
+      },
+      {
+        nombre: "Slack",
+        url: "https://slack.com/intl/es-mx/"
+      }
+    ],
+    diseño: [
+      {
+        nombre: "Adobe Creative Cloud",
+        url: "https://www.adobe.com/mx/"
+      },
+      {
+        nombre: "Canva",
+        url: "https://www.canva.com/es_419/"
+      }
     ]
   };
   

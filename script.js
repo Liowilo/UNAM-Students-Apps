@@ -67,7 +67,7 @@ const aplicaciones = {
     }
   });
 
-  const select = document.getElementById("carrera");
+const select = document.getElementById("carrera");
 const info = document.getElementById("info");
 
 select.addEventListener("change", function() {

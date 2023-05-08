@@ -5,17 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNAM Apps</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
-        <h1>UNAM </h1>
-        <h2>Apps para estudianes</h2>
+        <a href="#" class="logo">
+          <img src="unam.png" alt="Logo de la escuela">
+          <h2 class="nombre-empresa">UNAM APPS</h2>
+        </a>
+        <nav class="cabeza">
+          <a href="" class="icons">
+          <span class="material-symbols-outlined">
+            home
+          </span>
+          </a>  
+          <a href="" class="nav-link">Inicio</a>
+          <a href="" class="icons">
+          <span class="material-symbols-outlined">
+            help
+            </span>
+          </a>
+          <a href="" class="nav-link">Quiénes somos?</a>
+          <a href="" class="icons">
+          <span class="material-symbols-outlined">
+            contact_page
+            </span>
+          </a>
+          <a href="" class="nav-link">Contacto</a>
+        </nav>
     </header>
     <div class="container">
-      <nav>
+      <nav class="lista">
         <select id="carrera">
-          <option value="">Seleccione una carrera</option>
+          <option value="opcion">Seleccione una carrera</option>
           <option value="informatica">Informática</option>
           <option value="administracion">Administración</option>
           <option value="contaduria">Contaduría</option>
@@ -26,6 +54,9 @@
       </nav>
       <main id="contenido">
       </main>
+    </div>
+    <div id="info">
+
     </div>
       <script src="script.js"></script>
 </body>

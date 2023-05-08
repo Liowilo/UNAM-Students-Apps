@@ -1,18 +1,38 @@
 header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
     background-color: #33658A;
-    box-shadow: -2px -1px 31px 1px rgba(0,0,0,0.25);
-    color: white;
-    padding: 20px;
-    border-radius: 15px;
-    width: 400px;
-    height: 190px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    padding: 10px;
   }
+
+  .nav-link{
+    color: #FFC252;
+    padding-right: 25px;
+    
+  }
+
+  .nav-link:hover{
+    cursor: pointer;
+    color: white;
+  }
+
+.logo{
+  display: flex;
+}
+.logo img{
+  height: 75px;
+  margin-right: 8px;
+}
+.logo h2:hover{
+  cursor: pointer;
+  color: #FFC252;
+}
+
+
   
-  nav {
+  .lista{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -21,7 +41,7 @@ header {
   }
   
   select {
-    background-color: #F0F0F0;
+    background-color: #fcf6bd;
     border: none;
     border-radius: 5px;
     font-size: 18px;
@@ -37,33 +57,38 @@ header {
   }
 
   body{
-    background-color: #FFC252;
+    background-color: #ffb703;
+    margin: 0;
   }
   .container {
+    animation:  fadeIn 2s;
     max-width: 500px;
     margin: 20px;
     padding: 20px;
-    background-color: #B5E2FA;
+    background-color: #457b9d;
     border-radius: 15px;
     box-shadow: -2px -1px 31px 1px rgba(0,0,0,0.47);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 170px;
+  }
+
+  #info {
+    background-color: #ffb703;
+    border: 1px solid #ffb703;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
   }
   
-  h1 {
-    font-size: 48px;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-  }
+  
   
   h2 {
     font-size: 24px;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2px;
+    color: white;
+    text-align: center;
   }
   
   ul {
@@ -74,19 +99,31 @@ header {
   }
   
   li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align:center;
   }
   
   a {
     text-decoration: none;
-    color: #2980B9;
+    color: #ffb703;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 400px;
   }
   
   a:hover {
-    text-decoration: underline;
-    color: #1F618D;
+    color: #fcf6bd;
+  }
+
+  @media (max-width:700px){
+    header{
+      flex-direction: column;
+    }
+  }
+  @keyframes fadeIn{
+    from{
+      opacity: 0;
+    }to{
+      opacity: 1;
+    }
   }

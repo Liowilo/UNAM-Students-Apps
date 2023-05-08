@@ -1,28 +1,28 @@
 const aplicaciones = {
     informatica: [
       {
-        nombre: "Visual Studio Code",
-        url: "https://code.visualstudio.com/"
+        nombre: "Trello",
+        url: "https://trello.com/es"
       },
       {
-        nombre: "Sublime Text",
-        url: "https://www.sublimetext.com/"
+        nombre: "Codecademy",
+        url: "https://www.codecademy.com/"
       },
       {
         nombre: "GitHub",
         url: "https://github.com/"
       },
       {
-        nombre: "GitLab",
-        url: "https://gitlab.com/"
+        nombre: "Wolfram Alpha",
+        url: "https://www.wolframalpha.com/"
       },
       {
-        nombre: "MySQL",
-        url: "https://www.mysql.com/"
+        nombre: "Grammarly",
+        url: "https://www.grammarly.com/"
       },
       {
-        nombre: "MongoDB",
-        url: "https://www.mongodb.com/"
+        nombre: "SoloLearn",
+        url: "https://www.sololearn.com/"
       }
     ],
     administracion: [
@@ -66,3 +66,19 @@ const aplicaciones = {
       contenido.innerHTML = html;
     }
   });
+
+  const select = document.getElementById("carrera");
+const info = document.getElementById("info");
+
+select.addEventListener("change", function() {
+  if (select.value === "opcion") {
+    info.textContent="";
+  }  
+    else if (select.value === "informatica") {
+    info.textContent = "Es una herramienta de gestión de proyectos que te permite organizar tus tareas en tarjetas y tableros. Es muy útil para llevar un seguimiento de tus proyectos y tareas pendientes.";
+  } else if (select.value === "administracion") {
+    info.textContent = "Información de la opción 2";
+  } else if (select.value === "option3") {
+    info.textContent = "Información de la opción 3";
+  }
+});

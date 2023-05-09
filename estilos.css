@@ -61,7 +61,7 @@ header {
     margin: 0;
   }
   .container {
-    animation:  fadeIn 2s;
+    animation:  fadeIn 4s;
     max-width: 500px;
     margin: 20px;
     padding: 20px;

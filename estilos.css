@@ -38,7 +38,19 @@ header {
   text-align: center;
   margin-left: 60px;
   margin-right: 60px;
-  padding-top: 35px;
+  padding-top: 25px;
+
+}
+
+#second p{
+  animation:  fadeIn 4s;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 20px;
 
 }
 

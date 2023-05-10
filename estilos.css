@@ -30,6 +30,18 @@ header {
   color: #FFC252;
 }
 
+#header p{
+  animation:  fadeIn 4s;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 35px;
+
+}
+
 
   
   .lista{
@@ -70,7 +82,7 @@ header {
     box-shadow: -2px -1px 31px 1px rgba(0,0,0,0.47);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 170px;
+    margin-top: 80px;
   }
 
   #info {

@@ -290,7 +290,7 @@ select.addEventListener("change", function() {
   }  
     else if (select.value === "informatica") {
     info.innerHTML="<h2>Wolfram Alpha</h2>"+
-    "<p>Es una herramienta de gestión de proyectos que te permite organizar tus tareas en tarjetas y tableros. Es muy útil para llevar un seguimiento de tus proyectos y tareas pendientes.</p>"+
+    "<p>Esta aplicación es una calculadora en línea que te permite resolver problemas matemáticos complejos, incluyendo álgebra, cálculo, estadística, entre otros.</p>"+
     "<h2>Codecademy</h2>"+
     "<p>Esta aplicación ofrece cursos interactivos en línea de programación y ciencias de la computación. Es una forma excelente de aprender nuevos lenguajes de programación y mejorar tus habilidades.</p>"+
     "<h2>Grammarly</h2>"+

@@ -118,12 +118,19 @@ header {
   }
 
   #info {
+    opacity: 0;
+    transition: opacity 4.5s, transform 3s;
+    transform: translateY(150px);
     background-color: #ffb703;
     border: 1px solid #ffb703;
     padding: 15px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
+  }
+  #info.revealed{
+    opacity: 1;
+    transform: translateY(0);
   }
   #info p{
     margin-bottom: 50px;

@@ -418,3 +418,16 @@ select.addEventListener("change", function() {
     "<p>Es una herramienta de gestión de proyectos en línea que te permite organizar tus tareas y proyectos en tarjetas y tableros. Es muy útil para llevar un seguimiento de tus proyectos y tareas pendientes.</p>"
   }
 });
+
+window.addEventListener('scroll', revealOnScroll);
+
+function revealOnScroll() {
+  var element = document.getElementById('info');
+  var elementTop = element.getBoundingClientRect().top;
+  var windowHeight = window.innerHeight;
+  if (elementTop < windowHeight) {
+    element.classList.add('revealed');
+  }
+}
+
+

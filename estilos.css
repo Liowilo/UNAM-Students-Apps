@@ -80,6 +80,38 @@ header {
   box-shadow: -2px -1px 31px 1px rgba(0,0,0,0.47);
 }
 
+.contact-list {
+  animation:  fadeIn 4s;
+  list-style: none;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-list a{
+  color: black;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-list i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact-list span {
+  font-size: 16px;
+}
+
+
+
 
   
   .lista{

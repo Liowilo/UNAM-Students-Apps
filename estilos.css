@@ -109,10 +109,6 @@ header {
 .contact-list span {
   font-size: 16px;
 }
-
-
-
-
   
   .lista{
     margin-left: auto;
@@ -220,6 +216,19 @@ header {
   
   a:hover {
     color: #fcf6bd;
+  }
+
+  form{
+    animation:  fadeIn 4s;
+    font-family: helvetica;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 18px;
+  }
+
+  #form h2{
+    animation:  fadeIn 4s;
+    font-size: 30px;
   }
 
   @media (max-width:700px){
